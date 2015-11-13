@@ -1,6 +1,7 @@
 *.class
 *.log
 .gradle
+target/
 
 # Eclipse
 .metadata
