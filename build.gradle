@@ -32,5 +32,6 @@ dependencies {
 flyway {
     url = 'jdbc:h2:file:target/foobar'
     user = 'sa'
+    locations = ['filesystem:src/main/resources/db/migration']
 }
 
